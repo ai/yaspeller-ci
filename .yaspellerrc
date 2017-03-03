@@ -8,6 +8,7 @@
     "CLI",
     "JSDoc",
     "Travis",
-    "js"
+    "js",
+    "npm"
   ]
 }
