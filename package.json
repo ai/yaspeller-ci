@@ -29,7 +29,10 @@
     "test": "yarn run lint && yarn run spellcheck"
   },
   "eslintConfig": {
-    "extends": "eslint-config-logux/node4"
+    "extends": "eslint-config-logux/node4",
+    "rules": {
+      "global-require": "off"
+    }
   },
   "lint-staged": {
     "*.md": "./bin.js",
