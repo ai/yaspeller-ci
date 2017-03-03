@@ -52,7 +52,7 @@ If you use JSDoc, we recommend to pass them by spelling check too:
 
 We recommend to combine Yaspeller CI with [`lint-staged`]:
 
-```
+```json
   "lint-staged": {
     "*.md": "yaspeller-ci"
   }
