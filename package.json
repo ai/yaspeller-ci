@@ -1,8 +1,14 @@
 {
   "name": "yaspeller-ci",
   "version": "0.1.0",
-  "description": "",
+  "description": "Fast spelling check for Travis CI",
   "keywords": [
+    "spelling",
+    "spellcheck",
+    "typo",
+    "yaspeller",
+    "travis",
+    "ci"
   ],
   "author": "Andrey Sitnik <andrey@sitnik.ru>",
   "license": "MIT",

@@ -3,7 +3,11 @@
   "ignoreCapitalization": true,
   "dictionary": [
     "Versioning",
-    "Yaspeller",
-    "CI"
+    "yaspeller",
+    "CI",
+    "CLI",
+    "JSDoc",
+    "Travis",
+    "js"
   ]
 }
