@@ -27,7 +27,7 @@
   },
   "scripts": {
     "lint-staged": "lint-staged",
-    "spellcheck": "./bin.js *.md",
+    "spellcheck": "./bin.js *.md test.js.html",
     "lint": "eslint *.js",
     "test": "yarn run lint && yarn run spellcheck"
   },

@@ -8,5 +8,6 @@ yarn-error.log
 yarn.lock
 
 .travis.yml
+test.js.html
 
 .yaspellerrc
