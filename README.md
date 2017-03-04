@@ -34,7 +34,7 @@ And add it to npm scripts:
 ```json
   "scripts": {
     "spellcheck": "yaspeller-ci *.md",
-    "test": "yarn run unit && yarn run lint && yarn run spellcheck"
+    "test": "npm run unit && npm run lint && npm run spellcheck"
   }
 ```
 
@@ -43,8 +43,8 @@ If you use JSDoc, we recommend to pass them by spelling check too:
 ```json
   "scripts": {
     "docs": "jsdoc --configure .jsdocrc *.js",
-    "spellcheck": "yarn run docs && yaspeller-ci *.md api/*.html",
-    "test": "yarn run unit && yarn run lint && yarn run spellcheck"
+    "spellcheck": "npm run docs && yaspeller-ci *.md api/*.html",
+    "test": "npm run unit && npm run lint && npm run spellcheck"
   }
 ```
 
