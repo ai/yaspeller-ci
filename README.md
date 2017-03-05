@@ -2,11 +2,11 @@
 
 <img align="right" width="100" height="100" alt="Yaspeller Logo" src="https://raw.githubusercontent.com/hcodes/yaspeller/master/images/logo.png">
 
-Fast spelling check for Travis CI.
+Fast spelling check for Travis CI and AppVeyor.
 
 It is just simple wrap for [yaspeller], CLI for [Yandex.Speller] API.
-But it run spelling check only in first Travis CI job,
-to speed up build time and reduce unnecessary burden for Travis CI
+But it run spelling check only in first CI job,
+to speed up build time and reduce unnecessary burden for CI service
 and Yandex.Speller API.
 
 [Yandex.Speller]: https://tech.yandex.ru/speller/doc/dg/concepts/About-docpage/

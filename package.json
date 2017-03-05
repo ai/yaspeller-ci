@@ -8,6 +8,7 @@
     "typo",
     "yaspeller",
     "travis",
+    "appveyor",
     "ci"
   ],
   "author": "Andrey Sitnik <andrey@sitnik.ru>",
