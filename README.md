@@ -5,8 +5,8 @@
 Fast spelling check for Travis CI.
 
 It is just simple wrap for [yaspeller], CLI for [Yandex.Speller] API.
-But it run spelling check only on latest Node.js version in Travis CI,
-to speed up Travis CI build time and reduce unnecessary burden for Travis CI
+But it run spelling check only in first Travis CI job,
+to speed up build time and reduce unnecessary burden for Travis CI
 and Yandex.Speller API.
 
 [Yandex.Speller]: https://tech.yandex.ru/speller/doc/dg/concepts/About-docpage/
