@@ -16,3 +16,7 @@ test_script:
 cache:
  - node_modules
  - "%LOCALAPPDATA%/Yarn"
+
+version: "{build}"
+build: off
+deploy: off
