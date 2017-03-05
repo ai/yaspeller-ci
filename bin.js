@@ -2,10 +2,16 @@
 
 'use strict'
 
-const job = (process.env.TRAVIS_JOB_NUMBER || '1.1').split('.')[1]
-if (process.env.TRAVIS && job !== '1') {
-  console.warn(
-    'To speed up Travis CI tests spelling check runs only in first job')
-} else {
+function jobNumber () {
+  if (process.env.TRAVIS) {
+    return process.env.TRAVIS_JOB_NUMBER.split('.')[1]
+  } else {
+    return '1'
+  }
+}
+
+if (jobNumber() === '1') {
   require('yaspeller/lib/cli')
+} else {
+  console.warn('To speed up CI spelling check runs only in first job')
 }
