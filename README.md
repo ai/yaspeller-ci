@@ -44,6 +44,25 @@ If you use JSDoc, we recommend to pass them by spelling check too:
   }
 ```
 
+## Config
+
+You can specify own dictionary and spelling check options
+in `.yaspellerrc` config.
+
+```js{
+  "lang": "en",
+  "ignoreCapitalization": true,
+  "dictionary": [
+    "yaspeller",
+    "Travis"
+  ]
+}
+```
+
+Full list of options could be found in [`yaspeller` docs].
+
+[`yaspeller` docs]: https://github.com/hcodes/yaspeller#configuration
+
 ## Extra
 
 We recommend to combine Yaspeller CI with [`lint-staged`]:
