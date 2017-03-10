@@ -52,7 +52,6 @@ in `.yaspellerrc` config.
 ```json
 {
   "lang": "en",
-  "ignoreCapitalization": true,
   "dictionary": [
     "yaspeller",
     "Travis"
