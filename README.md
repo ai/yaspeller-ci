@@ -49,7 +49,8 @@ If you use JSDoc, we recommend to pass them by spelling check too:
 You can specify own dictionary and spelling check options
 in `.yaspellerrc` config.
 
-```js{
+```json
+{
   "lang": "en",
   "ignoreCapitalization": true,
   "dictionary": [
