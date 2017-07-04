@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.4.1
+* Move CI job detection to `ci-job-number`.
+
 ## 0.4
 * Better AppVeyor support with new `APPVEYOR_JOB_NUMBER` environment variable.
 
