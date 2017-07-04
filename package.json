@@ -16,17 +16,19 @@
   "repository": "ai/yaspeller-ci",
   "bin": "./bin.js",
   "dependencies": {
-    "yaspeller": "^3.1.0"
+    "yaspeller": "^3.2.0"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
-    "eslint-config-logux": "^9.0.0",
-    "eslint-config-standard": "^7.1.0",
-    "eslint-plugin-jest": "^19.0.1",
-    "eslint-plugin-node": "^4.2.1",
+    "eslint": "^4.1.1",
+    "eslint-config-logux": "^15.0.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-node": "^5.1.0",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^2.1.1",
-    "lint-staged": "^3.4.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "lint-staged": "^4.0.0",
     "pre-commit": "^1.2.2"
   },
   "engines": {
