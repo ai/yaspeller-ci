@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.6
+* Add Semaphore support.
+
 ## 0.5
 * Add CircleCI support.
 
