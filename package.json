@@ -16,7 +16,7 @@
   "repository": "ai/yaspeller-ci",
   "bin": "./bin.js",
   "dependencies": {
-    "ci-job-number": "^0.1.0",
+    "ci-job-number": "^0.2.0",
     "yaspeller": "^3.2.0"
   },
   "devDependencies": {
