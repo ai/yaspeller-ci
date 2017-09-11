@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.7
+* Use Yaspeller 4.
+
 ## 0.6
 * Add Semaphore support.
 
