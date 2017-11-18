@@ -39,7 +39,7 @@
   "scripts": {
     "lint-staged": "lint-staged",
     "spellcheck": "node ./bin.js README.md CHANGELOG.md",
-    "lint": "eslint *.js",
+    "lint": "eslint-ci *.js",
     "test": "yarn run lint && yarn run spellcheck"
   },
   "eslintConfig": {
