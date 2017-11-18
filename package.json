@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "eslint": "^4.6.1",
+    "eslint-ci": "^0.1.0",
     "eslint-config-logux": "^16.2.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.7.0",
@@ -38,7 +39,7 @@
   "scripts": {
     "lint-staged": "lint-staged",
     "spellcheck": "node ./bin.js README.md CHANGELOG.md",
-    "lint": "eslint *.js",
+    "lint": "eslint-ci *.js",
     "test": "yarn run lint && yarn run spellcheck"
   },
   "eslintConfig": {
