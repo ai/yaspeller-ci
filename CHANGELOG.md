@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0
+* Use `>=` in `yaspeller` dependency to work with any future major release.
+
 ## 0.7
 * Use Yaspeller 4.
 
