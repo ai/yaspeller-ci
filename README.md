@@ -5,7 +5,7 @@
 Fast spelling check for Travis CI and AppVeyor.
 
 It is just simple wrap for [yaspeller], CLI for [Yandex.Speller] API.
-But it run spelling check only in first CI job,
+But it runs spelling check only in first CI job,
 to speed up build time and reduce unnecessary burden for CI service
 and Yandex.Speller API.
 
