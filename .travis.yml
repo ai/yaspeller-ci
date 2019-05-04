@@ -7,3 +7,7 @@ matrix:
   include:
     os: windows
     node_js: node
+    cache: false
+    script: npx jest
+    env:
+      - YARN_GPG=no
