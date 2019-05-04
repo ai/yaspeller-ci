@@ -1,9 +1,9 @@
 language: node_js
 cache: yarn
 node_js:
-  - "11"
+  - node
   - "8"
 matrix:
   include:
     os: windows
-    node_js: "11"
+    node_js: node
