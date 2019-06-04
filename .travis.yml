@@ -9,5 +9,4 @@ matrix:
     os: windows
     node_js: node
     cache: false
-    env:
-      - YARN_GPG=no
+    env: "YARN_GPG=no"
