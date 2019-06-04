@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict'
 
-const ciJobNumber = require('ci-job-number')
+let ciJobNumber = require('ci-job-number')
 
 if (ciJobNumber() === 1) {
   require('yaspeller/lib/cli')

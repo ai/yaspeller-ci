@@ -17,21 +17,23 @@
   "bin": "./bin.js",
   "dependencies": {
     "ci-job-number": "^0.3.0",
-    "yaspeller": ">=4.0.3"
+    "yaspeller": ">=5.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-ci": "^0.1.0",
-    "eslint-config-logux": "^17.0.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.3.2",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
+    "@logux/eslint-config": "^28.2.1",
+    "eslint": "^5.16.0",
+    "eslint-ci": "^1.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-import-helpers": "^0.1.4",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prefer-let": "^1.0.1",
+    "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "lint-staged": "^5.0.0",
-    "pre-commit": "^1.2.2"
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -43,7 +45,7 @@
     "test": "yarn run lint && yarn run spellcheck"
   },
   "eslintConfig": {
-    "extends": "eslint-config-logux/node4",
+    "extends": "@logux/eslint-config/node",
     "rules": {
       "global-require": "off"
     }
@@ -52,7 +54,30 @@
     "*.md": "./bin.js",
     "*.js": "eslint"
   },
-  "pre-commit": [
-    "lint-staged"
-  ]
+  "husky": {
+    "hooks": {
+      "pre-commit": [
+        "lint-staged"
+      ]
+    }
+  },
+  "yaspeller": {
+    "lang": "en",
+    "ignoreCapitalization": true,
+    "ignoreText": [
+      " \\(by [^)]+\\)."
+    ],
+    "dictionary": [
+      "Versioning",
+      "yaspeller",
+      "CI",
+      "CLI",
+      "JSDoc",
+      "Travis",
+      "js",
+      "npm",
+      "AppVeyor",
+      "CircleCI"
+    ]
+  }
 }
