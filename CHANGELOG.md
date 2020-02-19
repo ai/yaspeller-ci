@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0.2
+* Update `ci-job-number`.
+
 ## 1.0.1
 * Reduce npm package size.
 
